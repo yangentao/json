@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package dev.entao.json
+package dev.entao.kan.json
 
 import kotlin.reflect.KClass
 import kotlin.reflect.KType

@@ -1,7 +1,7 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
-package dev.entao.json
+package dev.entao.kan.json
 
-import dev.entao.base.MyDate
+import dev.entao.kan.base.MyDate
 import java.math.BigDecimal
 import java.math.BigInteger
 

@@ -1,7 +1,7 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
-package dev.entao.json
+package dev.entao.kan.json
 
-import yet.ext.ITextConvert
+import dev.entao.kan.base.ITextConvert
 import kotlin.reflect.KClass
 
 object YsonObjectText : ITextConvert {

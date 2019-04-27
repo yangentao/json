@@ -1,8 +1,9 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
 
-package dev.entao.json
+package dev.entao.kan.json
 
-import yet.ext.TextConverts
+import dev.entao.kan.base.TextConverts
+
 
 class YsonArray(val data: ArrayList<YsonValue> = ArrayList(16)) : YsonValue(), MutableList<YsonValue> by data {
 

@@ -1,5 +1,5 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
-package dev.entao.json
+package dev.entao.kan.json
 
 class YsonString(val data: String) : YsonValue() {
 

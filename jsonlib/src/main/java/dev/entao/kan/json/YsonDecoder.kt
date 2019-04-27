@@ -1,10 +1,11 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
-package dev.entao.json
+package dev.entao.kan.json
 
-import dev.entao.base.genericArgs
-import dev.entao.base.isGeneric
-import dev.entao.base.isPublic
-import dev.entao.base.nameProp
+
+import dev.entao.kan.base.genericArgs
+import dev.entao.kan.base.isGeneric
+import dev.entao.kan.base.isPublic
+import dev.entao.kan.base.nameProp
 import java.math.BigDecimal
 import java.math.BigInteger
 import kotlin.reflect.KClass

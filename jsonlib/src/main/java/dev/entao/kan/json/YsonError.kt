@@ -1,5 +1,5 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
-package dev.entao.json
+package dev.entao.kan.json
 
 class YsonError(msg: String = "YsonError") : Exception("Json解析错误, $msg") {
 

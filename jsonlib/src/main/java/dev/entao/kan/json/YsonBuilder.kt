@@ -1,5 +1,5 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
-package dev.entao.json
+package dev.entao.kan.json
 
 /**
  * Created by entaoyang@163.com on 2016-12-29.

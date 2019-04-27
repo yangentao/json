@@ -1,6 +1,6 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
 
-package dev.entao.json
+package dev.entao.kan.json
 
 private const val CR: Char = '\r'
 private const val LF: Char = '\n'

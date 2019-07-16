@@ -1,6 +1,8 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
 package dev.entao.kan.json
 
+import dev.entao.kan.base.Exclude
+import dev.entao.kan.base.hasAnnotation
 import dev.entao.kan.base.isPublic
 import dev.entao.kan.base.nameProp
 import java.math.BigDecimal
@@ -117,7 +119,7 @@ object YsonEncoder {
 				yo
 			}
 			else -> {
-				val ls = m::class.memberProperties.filter { it.isPublic && it is KMutableProperty1 && !it.isAbstract && !it.isConst }
+				val ls = m::class.memberProperties.filter { it.isPublic && it is KMutableProperty1 && !it.isAbstract && !it.isConst && !it.hasAnnotation<Exclude>() }
 				val yo = YsonObject(ls.size)
 				ls.forEach { p ->
 					val k = p.nameProp

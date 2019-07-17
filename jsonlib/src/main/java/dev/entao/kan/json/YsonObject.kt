@@ -1,10 +1,12 @@
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
 package dev.entao.kan.json
 
+import androidx.annotation.Keep
 import dev.entao.kan.base.*
 import kotlin.reflect.KMutableProperty
 import kotlin.reflect.KProperty
 
+@Keep
 class YsonObject(val data: LinkedHashMap<String, YsonValue> = LinkedHashMap(32)) : YsonValue(), MutableMap<String, YsonValue> by data {
 
 	constructor(capcity: Int) : this(LinkedHashMap<String, YsonValue>(capcity))
